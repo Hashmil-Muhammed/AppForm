@@ -1,0 +1,4 @@
+"C:\Program Files\dotnet\dotnet.exe" remove package Microsoft.EntityFrameworkCore.Sqlite
+
+"C:\Program Files\dotnet\dotnet.exe" add package Microsoft.EntityFrameworkCore.SqlServer --version 10.*
+

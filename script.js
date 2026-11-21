@@ -24,12 +24,10 @@ const recordsBody = document.getElementById("recordsBody");
 
 function showError(inputEl, errorId, message) {
   document.getElementById(errorId).textContent = message;
-  if (inputEl) inputEl.classList.add("input-error");
 }
 
 function clearError(inputEl, errorId) {
   document.getElementById(errorId).textContent = "";
-  if (inputEl) inputEl.classList.remove("input-error");
 }
 
 function getSelectedValue(name) {
